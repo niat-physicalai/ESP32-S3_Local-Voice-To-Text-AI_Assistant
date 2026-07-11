@@ -1,0 +1,17 @@
+{
+    "python_version": "3.12",
+
+    "ollama_model": "qwen2.5:1.5b",
+
+    "whisper_model": "base",
+
+    "arduino_fqbn": "esp32:esp32:XIAO_ESP32S3",
+
+    "firmware_folder": "../firmware",
+
+    "server_folder": "../server",
+
+    "wifi_ssid": "",
+
+    "wifi_password": ""
+}

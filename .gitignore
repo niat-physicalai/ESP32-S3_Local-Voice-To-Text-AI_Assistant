@@ -1,0 +1,161 @@
+# ==========================================================
+# ESP32 Voice Assistant
+# Git Ignore
+# ==========================================================
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# ----------------------------
+# IDE
+# ----------------------------
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# ----------------------------
+# Operating System
+# ----------------------------
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
+
+.env
+.env.*
+
+# ----------------------------
+# Logs
+# ----------------------------
+
+*.log
+
+# ----------------------------
+# Audio Files
+# ----------------------------
+
+received.wav
+audio.wav
+audio1.wav
+audio2.wav
+audio3.wav
+
+*.pcm
+*.raw
+
+# ----------------------------
+# Temporary Files
+# ----------------------------
+
+tmp/
+temp/
+cache/
+
+# ----------------------------
+# Whisper
+# ----------------------------
+
+whisper_cache/
+
+# ----------------------------
+# Hugging Face Cache
+# ----------------------------
+
+.cache/
+huggingface/
+
+# ----------------------------
+# Test Output
+# ----------------------------
+
+test_output/
+
+# ----------------------------
+# Generated Config
+# ----------------------------
+
+config_local.py
+
+# ----------------------------
+# Arduino
+# ----------------------------
+
+*.elf
+*.bin
+*.hex
+
+# ----------------------------
+# PlatformIO
+# ----------------------------
+
+.pio/
+.piolibdeps/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+
+.ipynb_checkpoints/
+
+# ----------------------------
+# Backup Files
+# ----------------------------
+
+*.bak
+*.old
+*.orig
+
+# ----------------------------
+# Installer Output
+# ----------------------------
+
+install.log
+diagnostics.log
